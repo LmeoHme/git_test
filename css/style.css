@@ -1,0 +1,28 @@
+.header {
+    color: aqua;
+}
+.subsection {
+    color: green;
+}
+/* .subsection.header {
+    color: blueviolet;
+} */
+.subsection.preview {
+    color: yellowgreen;
+}
+.preview .contents {
+    color: brown;
+}
+.header .contents {
+    color: orangered;
+}
+.contents {
+    color: blue;
+}
+.preview {
+    color: red;
+}
+
+/* #contents {
+    color: black;
+} */

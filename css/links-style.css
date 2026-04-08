@@ -1,0 +1,64 @@
+/* .container {
+  background-color: blue;
+  height: 200px;
+  min-width: 100px;
+  padding: .5em;
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+  gap: .5em;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:1 1 auto;
+  min-height: 50px;
+  min-width: 50px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.one {
+  align-self: flex-end;
+} */
+
+.container {
+  background-color: black;
+  border: 1px solid whitesmoke;
+  padding: 5px;
+  display: flex;
+  flex-flow: wrap;
+  gap: 8px;
+  min-width: 150px;
+}
+
+.container div {
+  color: white;
+}
+
+div h3 {
+  margin: 3px 0 10px 0;
+}
+
+div p {
+  color: slategray;
+  margin: 0;
+}
+
+#name {
+  flex: 80px;
+}
+
+#email {
+  flex: 1 1.5 120px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  align-self: flex-end;
+  flex: 30px;
+}
